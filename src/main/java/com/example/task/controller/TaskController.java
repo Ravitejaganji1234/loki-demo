@@ -13,7 +13,7 @@ import com.example.task.model.*;
 
   @RestController
 
-  @CrossOrigin
+  @CrossOrigin("http://localhost:3000/")
   @RequestMapping("apis/employees")
 public class TaskController {
     @Autowired 
